@@ -37,7 +37,7 @@ A curated list of awesome YARA rules, tools, and resources. Inspired by [awesome
     - Apple has ~40 YARA signatures for detecting malware on OSX. The file, XProtect.yara, is available locally at /System/Library/CoreServices/XProtect.bundle/Contents/Resources/.
 * [bamfdetect rules](https://github.com/bwall/bamfdetect/tree/master/BAMF_Detect/modules/yara)
     - Custom rules from Brian Wallace used for bamfdetect, along with some rules from other sources.
-* [BinaryAlert YARA Rules](https://github.com/airbnb/binaryalert/tree/master/rules/public) :eyes: :sparkles:
+* [BinaryAlert YARA Rules](https://github.com/airbnb/binaryalert/tree/master/rules/public) :sparkles:
     - A couple dozen rules written and released by AirBnB as part of their BinaryAlert tool (see next section). Detection for hack tools, malware, and ransomware across Linux, Window, and OS X. This is a new and active project.
 * [Burp YARA Rules](https://github.com/codewatchorg/Burp-Yara-Rules)
     - Collection of YARA rules intended to be used with the Burp Proxy through the Yara-Scanner extension. These rules focus mostly on non-exe malware typically delivered over HTTP including HTML, Java, Flash, Office, PDF, etc. Last updated in June of 2016.
@@ -107,6 +107,8 @@ A curated list of awesome YARA rules, tools, and resources. Inspired by [awesome
     - Rules to identify files containing juicy information like usernames, passwords etc.
 * [YaraRules Project Official Repo](https://github.com/Yara-Rules/rules) :eyes:
     - Large collection of rules constantly updated by the community.
+* [Yara-Unprotect](https://github.com/fr0gger/Yara-Unprotect)
+    - Rules created for the Unprotect Project for detecting malware evasion techniques.
 
 ## Tools
 
@@ -124,12 +126,16 @@ A curated list of awesome YARA rules, tools, and resources. Inspired by [awesome
     - Framework for automating collection and processing of samples from VirusTotal, and executing commands based on YARA rule matches.
 * [CSE-CST AssemblyLine](https://bitbucket.org/cse-assemblyline/alsvc_yara) :sparkles:
     - The Canadian Communications Security Establishment (CSE) open sourced [AssemblyLine](https://www.cse-cst.gc.ca/en/assemblyline), a platform for analyzing malicious files. The component linked here provides an interface to YARA.
+* [dnYara](https://github.com/airbus-cert/dnYara)
+    - A multi-platform .NET wrapper library for the native YARA library.
 * [ELAT](https://github.com/reed1713/ELAT)
     - Event Log Analysis Tool that creates/uses YARA rules for Windows event log analysis.
 * [Emerson File Scanning Framework (FSF)](https://github.com/EmersonElectricCo/fsf)
     - Modular, recursive file scanning solution.
 * [findcrypt-yara](https://github.com/polymorf/findcrypt-yara) and [FindYara](https://github.com/OALabs/FindYara)
     - IDA pro plugins to scan your binary with YARA rules to find crypto constants (and more).
+* [Fnord](https://github.com/Neo23x0/Fnord)
+    - Pattern extractor for obfuscated code.
 * [generic-parser](https://github.com/uppusaikiran/generic-parser)
     - Parser with YARA support, to extract meta information, perform static analysis and detect macros within files.
 * [GoDaddy ProcFilter](https://github.com/godaddy/procfilter) :gem:
@@ -142,6 +148,8 @@ A curated list of awesome YARA rules, tools, and resources. Inspired by [awesome
     - IDA Python scripts for generating YARA sigs from executable opcodes (.NET included).
 * [ida_yara](https://github.com/alexander-hanel/ida_yara)
     - Scan data within an IDB using YARA.
+* [ida-yara-processor](https://github.com/bnbdr/ida-yara-processor)
+    - IDA processor for compiled YARA rules.
 * [InQuest ThreatKB](https://github.com/InQuest/ThreatKB)
     - Knowledge base workflow management for YARA rules and C2 artifacts (IP, DNS, SSL).
 * [iocextract](https://github.com/InQuest/python-iocextract)
@@ -161,6 +169,8 @@ A curated list of awesome YARA rules, tools, and resources. Inspired by [awesome
     - Threat intelligence platform including indicators, threat intelligence, malware samples and binaries. Includes support for sharing, generating, and validating YARA signatures.
 * [MITRE MultiScanner](https://github.com/mitre/multiscanner)
     - File analysis framework that assists the user in evaluating a set of files by automatically running a suite of tools for the user and aggregating the output.
+* [mkYARA](https://github.com/fox-it/mkYARA)
+    - Generate YARA rules based on binary code.
 * [mquery](https://github.com/CERT-Polska/mquery)
     - Web frontend for running blazingly fast YARA queries on large datasets.
 * Nextron Systems OSS and Commercial Tools (Florian Roth: @Neo23x0)
@@ -182,12 +192,22 @@ A curated list of awesome YARA rules, tools, and resources. Inspired by [awesome
     - Tools for checking samples against Virus Total, including VT_RuleMGR, for managing threat hunting YARA rules.
 * [QuickSand.io](http://quicksand.io/)
     - Compact C framework to analyze suspected malware documents. Also includes a web interface and online analysis.
+* [shotgunyara](https://github.com/darienhuss/shotgunyara)
+    - Given a string, create 255 xor encoded versions of that string as a YARA rule.
 * [spyre](https://github.com/DCSO/spyre)
     - Simple, self-contained YARA-based file IOC scanner.
+* [static_file_analysis](https://github.com/lprat/static_file_analysis)
+    - Analyze deeply embedded files (doc, pdf, exe, ...) with clamscan and YARA.
 * [stoQ](https://github.com/PUNCH-Cyber/stoq)
     - Modular and highly customizable framework for the creation of data sets from multiple disparate data sources.
+* [Strelka](https://github.com/target/strelka)
+    - Detection-Oriented File Analysis System built on Python3, ZeroMQ, and YARA, primarily used for threat detection/hunting and intelligence gathering.
 * [SwishDbgExt](https://github.com/comaeio/SwishDbgExt)
     - Microsoft WinDbg extension which includes the ability to use YARA rules to hunt processes in memory.
+* [ThreatIngestor](https://github.com/InQuest/ThreatIngestor/)
+    - Automatically extract and aggregate IOCs including YARA rules from many sources.
+* [Vxsig](https://github.com/google/vxsig)
+    - Automatically generate AV byte signatures from sets of similar binaries.
 * [yabin](https://github.com/AlienVault-OTX/yabin)
     - Creates YARA signatures from executable code within malware.
 * [yaml2yara](https://github.com/nccgroup/yaml2yara)
@@ -218,16 +238,22 @@ A curated list of awesome YARA rules, tools, and resources. Inspired by [awesome
     - Python extension to wrap the YARA process memory access API.
 * [Yara Python ICAP Server](https://github.com/RamadhanAmizudin/python-icap-yara)
     - ICAP server with YARA scanner.
+* [yarasafe](https://github.com/lucamassarelli/yarasafe)
+    - Automatic generation of function signature using machine learning.
 * [yara_scan](https://github.com/tylerha97/yara_scan)
     - Extract zips, pull macros out of documents, and scan everything against YARA rules.
 * [Yara-Scanner](https://github.com/PolitoInc/Yara-Scanner)
     - Python-based extension that integrates a YARA scanner into Burp Suite.
 * [yarascanner](https://github.com/jheise/yarascanner)
     - Golang-based web service to scan files with YARA rules.
+* [yara_tools](https://github.com/matonis/yara_tools)
+    - Python bindings to author YARA rules using natural Python conventions.
 * [Yara-Validator](https://github.com/CIRCL/yara-validator)
     - Validates YARA rules and tries to repair the broken ones.
 * [yaraVT](https://github.com/deadbits/yaraVT)
     - Scan files with Yara and send rule matches to VirusTotal reports as comments.
+* [yara_zip_module](https://github.com/stoerchl/yara_zip_module)
+    - Search for strings inside a zip file.
 * [yarGen](https://github.com/Neo23x0/yarGen)
     - YARA rule generator for finding related samples and hunting.
 * [YaYaGen](https://github.com/jimmy-sonny/YaYaGen)
